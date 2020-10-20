@@ -125,3 +125,17 @@ for (let i = 1; i <= 50; i++){
 }else{
 	continue;
 }
+//ランダム変数でおみくじを作ってみよう
+console.log('ランダム変数');
+var random = Math.floor(Math.random() * 6);
+console.log('ramadom' );
+let omikuji = [
+'大吉',
+'中吉',
+'小吉',
+'末吉',
+'凶',
+'大凶'];
+console.log(omikuji[random]);
+}
+
